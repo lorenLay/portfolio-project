@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html {
+    font-size: 50.5%;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    font: 1rem "sans-serif";
+    background-color:lemonchiffon;
+}
+
+
+nav {
+    min-height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items:left;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style:none;
+}
+
+ li a {
+text-decoration: none;
+color:black;
+font: 1.5rem "verdana";
+padding: 1rem;
+}
+
+li a:hover {
+color: palevioletred;
+}
+
+.loren {
+    min-height: 50vh;
+    display: flex;
+    align-items: left;
+    justify-content:center;
+}
+
+.greetings h1{
+    font: 4rem "Verdana";
+    text-align: center;
+}
+
+.intro h2 {
+font: 2rem "Verdana";
+}
+
+.type2{
+    width: 30%;
+    height:30%;
+    position: center;
+    border-color: coral;
+    border-width: large;
+    border-style: double;
+    display: block;
+    margin: auto;
+    top: 50%;
+    right:50%;
+    bottom:50%;
+    top:0px;
+}
+
+.ren {
+    display: inline-block;
+    min-height: 50vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    font: 2rem "Verdana";
+}
+
+h1{
+    text-align: center;
+    font: sans-serif;
+    font-size: 23;
+}
+
+.name{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    min-height:5vh;
+    align-items: center;
+    font: 1.5rem "verdana";
+    justify-content: center;
+    color:black;
+}
+
+.cont{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
